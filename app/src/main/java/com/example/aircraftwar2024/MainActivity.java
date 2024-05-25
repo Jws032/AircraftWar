@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity{
 
         RadioGroup radioMusic = (RadioGroup) findViewById(R.id.radioMusic);
 
+        //注册监听器
         radioMusic.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
 
             @Override
